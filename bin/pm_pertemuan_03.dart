@@ -61,6 +61,7 @@ int bandingkan(MataKuliah a, MataKuliah b) {
 }
 
 void main() {
+  // main menangkap error yang dilempar (throw) oleh fungsi bacaSks dan bacaNilai
   final daftar = <MataKuliah>[];
 
   while (true) {
